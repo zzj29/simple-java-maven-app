@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    tools {
-        Maven '3.9.8'
+    tools { 
+        maven '3.9.8' 
     }
     stages {
         stage('AZ - Build Docker Image') { 
